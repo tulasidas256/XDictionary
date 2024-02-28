@@ -56,8 +56,7 @@ function App() {
         onChange={handleChange}
         required />
       <button onClick={handleSearch}>Search</button>
-      <br />
-      <span className='def'>Defination:</span>
+      <p className='def'>Defination:</p>
       <div>
         <p>{result}</p>
       </div>
